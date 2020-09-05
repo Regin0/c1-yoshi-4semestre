@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                         Toast.LENGTH_SHORT
                     ).show()
                     tv_resultado.text = "Por favor, preencha todos os campos!"
-                    tv_resultado.setTextColor(Color.RED)
+                    tv_resultado.setTextColor(Color.BLUE)
                     tv_resultado.visibility = View.VISIBLE
                 }
             }
